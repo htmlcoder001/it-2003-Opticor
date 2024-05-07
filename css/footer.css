@@ -1,0 +1,206 @@
+@media(max-width: 992px) {
+    :root {
+        --icono1: 24px;
+        --icono2: 16px
+    }
+
+    .titulo0 {
+        margin: 0 -1rem
+    }
+}
+
+.text-center {
+    margin: 0 auto;
+    text-align: center
+}
+
+.svg-logo-footer {
+    width: 300px;
+    height: 45px;
+}
+
+.ml-2 {
+    margin-left: 1rem
+}
+
+footer {
+    background: #323232;
+    color: #fff;
+    font-size: 1.05rem !important;
+    padding-bottom: 3rem;
+    font-family: "Lato", system-ui, sans-serif;
+}
+
+footer div.row {
+    grid-gap: 2rem
+}
+
+footer div.container {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer strong.big {
+    font-size: 1.5rem !important;
+    font-weight: 900
+}
+
+footer strong.big:before {
+    content: "";
+    width: 1.2rem;
+    height: 1.2rem;
+    display: inline-block;
+    background: red;
+    position: absolute;
+    left: -24px;
+    top: 6px
+}
+
+footer strong {
+    margin-bottom: .5rem;
+    display: block
+}
+
+.email-suscribe-container {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: auto
+}
+
+footer input {
+    padding: .7rem;
+    border-radius: .8rem 0 0 .8rem;
+    border: 1px solid transparent;
+    text-align: left;
+    font-size: 1rem !important;
+    grid-column: 1/17;
+    grid-row: 1/2;
+    outline: none
+}
+
+.email.join {
+    color: #fff;
+    background: red;
+    cursor: pointer;
+    height: 42px;
+    border-radius: 0 .8rem .8rem 0;
+    line-height: 40px;
+    text-align: center;
+    grid-column: 17/21;
+    grid-row: 1/2
+}
+
+.email.join:hover {
+    text-decoration: underline
+}
+
+.email.warning {
+    color: #fff;
+    height: 30px;
+    line-height: 40px;
+    text-align: center;
+    grid-column: 1/21;
+    grid-row: 2/2
+}
+
+.icon-send {
+    display: inline-block;
+    height: 44.38px !important;
+    min-width: 42.38px !important;
+    color: transparent !important;
+    background: url("data:image/svg+xml,%3Csvg width='131px' height='150px' aria-hidden='true' focusable='false' data-prefix='fab' data-icon='telegram-plane' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512' class='svg-inline--fa fa-telegram-plane fa-w-14 fa-9x'%3E%3Cpath fill='white' d='M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z' class=''%3E%3C/path%3E%3C/svg%3E") !important;
+    background-color: red !important;
+    background-position: center center !important;
+    background-size: auto 25px !important;
+    background-repeat: no-repeat !important;
+    font-size: 1.5rem !important;
+    text-align: center !important;
+    opacity: .9
+}
+
+.icon-send:hover {
+    opacity: 1
+}
+
+footer a {
+    padding-top: .2rem;
+    padding-bottom: .4rem
+}
+
+.bold {
+    font-weight: 900 !important
+}
+
+.small {
+    font-size: small !important;
+}
+
+.d-block {
+    display: block !important
+}
+
+.bg-gray {
+    background: #333
+}
+
+.text-light {
+    color: #fff !important
+}
+
+.text-blue1 {
+    color: #007edb !important
+}
+
+.relative {
+    position: relative
+}
+
+.mb-3 {
+    margin-bottom: 1.5rem
+}
+
+.mt-3 {
+    margin-top: 2rem
+}
+
+.mt-1 {
+    margin-top: 1rem
+}
+
+.text-decoration-none {
+    text-decoration: none
+}
+
+.red {
+    color: red
+}
+
+strong {
+    font-weight: 900
+}
+
+/*  */
+p.dot2 {
+    background: #fdfdfd;
+    height: 1px;
+    position: relative;
+    width: 100%;
+}
+
+p.dot2:before,
+p.dot2:after {
+    content: "";
+    background: linear-gradient(to right, #333, transparent);
+    width: 1rem;
+    display: inline-block;
+    position: absolute;
+    height: 1px
+}
+
+p.dot2:after {
+    content: "";
+    right: 0;
+    background: linear-gradient(to right, transparent, #333)
+}
